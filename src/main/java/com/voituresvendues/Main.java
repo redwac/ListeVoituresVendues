@@ -36,11 +36,9 @@ public class Main {
             while (ligneSuivante.equals("o")){
             //if(ligneSivant.equals("o"))
 
-            	
+            	              
                 
-                
-                
-                
+                                
                 System.out.println("donnez la marque du voiture ");
              
                 voitureVendue.setMarque(scanner.nextLine());
