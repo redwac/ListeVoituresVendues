@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.7" class="java.beans.XMLDecoder">
+ <object class="com.voituresvendues.VoitureVendue">
+  <void property="client">
+   <string>s</string>
+  </void>
+  <void property="dateDeVente">
+   <string>dsds</string>
+  </void>
+  <void property="marque">
+   <string>dsds</string>
+  </void>
+  <void property="modele">
+   <string>dsds</string>
+  </void>
+  <void property="prix">
+   <string>sds</string>
+  </void>
+ </object>
+</java>

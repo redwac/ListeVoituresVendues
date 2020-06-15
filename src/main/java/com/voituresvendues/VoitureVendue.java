@@ -1,19 +1,22 @@
 package com.voituresvendues;
 
+import java.util.Base64;
+import java.util.UUID;
+
 public class VoitureVendue {
 	
-	private int reference ;
+	private UUID reference ;
     private String marque;
     private String modele;
     private String dateDeVente;
     private String prix;
     private String client;
     
-	public int getReference() {
+	public UUID getReference() {
 		return reference;
 	}
-	public void setReference(int reference) {
-		this.reference = reference;
+	public void setReference(UUID uuid) {
+		this.reference = uuid;
 	}
 	public String getMarque() {
 		return marque;
@@ -46,6 +49,14 @@ public class VoitureVendue {
 		this.client = client;
 	}
 	
+	/* fonction pour l'encodage
+	 * 
+	 public static String encode(String str){
+		Base64.Encoder encoder = Base64.getEncoder();
+		byte[] encoded = encoder.encode(str.getBytes());
+		return new String(encoded);
+		}
+	*/
     
     
 
