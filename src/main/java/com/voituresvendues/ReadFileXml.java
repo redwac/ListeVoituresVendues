@@ -23,7 +23,7 @@ public class ReadFileXml {
         {
 
 //creating a constructor of file class and parsing an XML file
-            File file = new File("C:\\Users\\Toshiba\\Desktop\\DOC\\JAVA\\S1_GIT\\ReadDataXlm\\voitures_vendus.xml");
+            File file = new File("C:\\Users\\sabbane\\IdeaProjects\\ListeVoituresVendues");
 //an instance of factory that gives a document builder
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 //an instance of builder to parse the specified xml file
@@ -46,9 +46,9 @@ public class ReadFileXml {
                     Element eElement = (Element) node;
                     int montant = Integer.parseInt(eElement.getElementsByTagName("prix").item(0).getTextContent());
                     sommeVente = sommeVente + montant;
-                    System.out.println("la réference de voiteure est : "+ eElement.getElementsByTagName("reference").item(0).getTextContent());
+                    System.out.println("la rï¿½ference de voiteure est : "+ eElement.getElementsByTagName("reference").item(0).getTextContent());
                     System.out.println("la marque de voiture est : "+ eElement.getElementsByTagName("marque").item(0).getTextContent());
-                    System.out.println("Le modéle de voiture est : "+ eElement.getElementsByTagName("modele").item(0).getTextContent());
+                    System.out.println("Le modï¿½le de voiture est : "+ eElement.getElementsByTagName("modele").item(0).getTextContent());
                     System.out.println("date_de_vente de voiture est : "+ eElement.getElementsByTagName("date_de_vente").item(0).getTextContent());
                     System.out.println("prix : "+ eElement.getElementsByTagName("prix").item(0).getTextContent());
                     System.out.println("client : "+ eElement.getElementsByTagName("client").item(0).getTextContent());

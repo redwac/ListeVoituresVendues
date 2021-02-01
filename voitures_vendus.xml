@@ -1,0 +1,26 @@
+<voitures_vendus>
+	<voiture>
+		<reference>078183d1-163a-4ad7-bc80-0b058df6d1f6</reference>
+		<marque>BMW</marque>
+		<modele>Serie 3</modele>
+		<date_de_vente>2019-11-22</date_de_vente>
+		<prix>11320</prix>
+		<client>SmFtYWwgSGFtaWQ=</client>
+	</voiture>
+	<voiture>
+		<reference>92258752-a4d1-487a-a0cc-2f286e513c64</reference>
+		<marque>Renault</marque>
+		<modele>Talisman</modele>
+		<date_de_vente>2020-02-07</date_de_vente>
+		<prix>15900</prix>
+		<client>S2FtYWwgT3VhbGlkaQ==</client>
+	</voiture>
+	<voiture>
+		<reference>078183d1-163a-4ad7-bc80-0b058df6d1f6</reference>
+		<marque>Mercedes</marque>
+		<modele>Class C</modele>
+		<date_de_vente>2017-05-30</date_de_vente>
+		<prix>18350</prix>
+		<client>QWxpIE1vdWFkZW4=</client>
+	</voiture>
+</voitures_vendus>
